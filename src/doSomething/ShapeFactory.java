@@ -18,7 +18,6 @@ public class ShapeFactory extends JFrame implements ActionListener{
     public JButton b2;
     public String check="";
 	public shapes [] sList = new shapes [6];
-	public shapes [] newList = new shapes[6];
     JFrame f;
     JPanel p; 
     public void paint(Graphics g){
@@ -71,7 +70,7 @@ public class ShapeFactory extends JFrame implements ActionListener{
         b1.setBounds(100,100,100,100);
         f.add(p);
         f.add(b1);
-        f.setSize(400,400);  
+        f.setSize(600,600);  
         f.setLayout(null);  
         f.setVisible(true);  
       
@@ -82,10 +81,10 @@ public class ShapeFactory extends JFrame implements ActionListener{
         b2.setBounds(300,100,100,100);
         f.add(p);
         f.add(b2);
-        f.setSize(400,400);  
+        f.setSize(600,600);  
         f.setLayout(null);  
         f.setVisible(true);   
-        setSize(500,500);
+        setSize(600,600);
         setVisible(true);
         
     }    

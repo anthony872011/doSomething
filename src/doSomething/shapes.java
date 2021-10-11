@@ -1,8 +1,8 @@
 package doSomething;
 import java.awt.Color;
 public abstract class shapes {
-	public Color c; 
-	public int length, width; 
+	protected Color c; 
+	protected int length, width; 
 	double area;
 	String type;
 	
